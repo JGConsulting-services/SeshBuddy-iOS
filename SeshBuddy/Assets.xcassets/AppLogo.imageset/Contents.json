@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Colour Logo big.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
