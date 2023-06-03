@@ -14,6 +14,8 @@
 		FCB026772A2AE68500424C5F /* SeshBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB026762A2AE68500424C5F /* SeshBuddyTests.swift */; };
 		FCB026812A2AE68500424C5F /* SeshBuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB026802A2AE68500424C5F /* SeshBuddyUITests.swift */; };
 		FCB026832A2AE68500424C5F /* SeshBuddyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB026822A2AE68500424C5F /* SeshBuddyUITestsLaunchTests.swift */; };
+		FCB026902A2AF4BC00424C5F /* AddGuestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB0268F2A2AF4BC00424C5F /* AddGuestView.swift */; };
+		FCB026922A2B12AC00424C5F /* Terms.txt in Resources */ = {isa = PBXBuildFile; fileRef = FCB026912A2B12AC00424C5F /* Terms.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		FCB0267C2A2AE68500424C5F /* SeshBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeshBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCB026802A2AE68500424C5F /* SeshBuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeshBuddyUITests.swift; sourceTree = "<group>"; };
 		FCB026822A2AE68500424C5F /* SeshBuddyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeshBuddyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FCB0268F2A2AF4BC00424C5F /* AddGuestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGuestView.swift; sourceTree = "<group>"; };
+		FCB026912A2B12AC00424C5F /* Terms.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Terms.txt; path = Assets.xcassets/TermsOfUse.dataset/Terms.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +99,9 @@
 			isa = PBXGroup;
 			children = (
 				FCB026652A2AE68300424C5F /* SeshBuddyApp.swift */,
+				FCB0268F2A2AF4BC00424C5F /* AddGuestView.swift */,
 				FCB026672A2AE68300424C5F /* ContentView.swift */,
+				FCB026912A2B12AC00424C5F /* Terms.txt */,
 				FCB026692A2AE68400424C5F /* Assets.xcassets */,
 				FCB0266B2A2AE68400424C5F /* Preview Content */,
 			);
@@ -231,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCB026922A2B12AC00424C5F /* Terms.txt in Resources */,
 				FCB0266D2A2AE68400424C5F /* Preview Assets.xcassets in Resources */,
 				FCB0266A2A2AE68400424C5F /* Assets.xcassets in Resources */,
 			);
@@ -259,6 +266,7 @@
 			files = (
 				FCB026682A2AE68300424C5F /* ContentView.swift in Sources */,
 				FCB026662A2AE68300424C5F /* SeshBuddyApp.swift in Sources */,
+				FCB026902A2AF4BC00424C5F /* AddGuestView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,19 +425,22 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SeshBuddy/Preview Content\"";
+				DEVELOPMENT_TEAM = YBTR4T9779;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SeshBuddy;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = JGConsulting.SeshBuddy;
+				PRODUCT_BUNDLE_IDENTIFIER = "JG-Consulting.SeshBuddy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -445,19 +456,22 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SeshBuddy/Preview Content\"";
+				DEVELOPMENT_TEAM = YBTR4T9779;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SeshBuddy;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = JGConsulting.SeshBuddy;
+				PRODUCT_BUNDLE_IDENTIFIER = "JG-Consulting.SeshBuddy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -472,6 +486,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YBTR4T9779;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
@@ -491,6 +506,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YBTR4T9779;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
@@ -509,6 +525,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YBTR4T9779;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = JGConsulting.SeshBuddyUITests;
@@ -526,6 +543,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YBTR4T9779;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = JGConsulting.SeshBuddyUITests;
