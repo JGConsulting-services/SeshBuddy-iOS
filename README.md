@@ -24,3 +24,50 @@ The app keeps a comprehensive drink history for each guest, allowing organizers 
 SeshBuddy provides valuable insights into alcohol consumption patterns based on the recorded data. Organizers can access reports and analytics that help them understand trends, identify high-risk situations, and make informed decisions to ensure the safety and well-being of all guests.
  
 SeshBuddy is dedicated to encouraging responsible drinking practices and creating a safer party environment. As an iOS-exclusive app, it leverages the capabilities of Apple devices to provide a seamless and reliable solution for managing alcohol consumption. Whether it's a casual gathering or a larger event, SeshBuddy empowers party organizers to effectively monitor and control drinks, promoting a fun and responsible party atmosphere.
+
+## Terms of Use
+
+_Updated 1st June 2023_
+
+### 1. Purpose and Disclaimer of Liability
+
+By using the SeshBuddy app, you agree to the following Terms of Use:
+
+### 2. Medical Disclaimer
+
+The SeshBuddy app does not provide professional medical advice or guidance. It is not a substitute for professional healthcare or responsible drinking practices. Users should exercise caution and drink responsibly at all times.
+
+### 3. Addiction Disclaimer
+
+The SeshBuddy app does not address or provide support for alcohol or substance addiction and abuse. If you have concerns about alcohol or substance consumption or addiction, please seek appropriate professional help and resources.
+
+### 4. Limitation of Liability
+
+The creator of the SeshBuddy app, Jake Gibbons (Here on in referred to as "The creator"), shall not be held liable for any injury, illness, or death resulting from the use or misuse of the app. The user takes full responsibility for their actions and any consequences that may arise.
+
+### 5. Drink Consumption Estimates
+
+The SeshBuddy app may provide estimates and calculations regarding the amount of drinks consumed.
+
+These estimates are based on general assumptions and should not be considered as precise measurements.
+
+Users should use their discretion and judgment when relying on the app's calculations.
+
+### 6. Use at Own Risk
+
+The user agrees to use the SeshBuddy app at their own risk. The creator disclaims any warranties, express or implied, regarding the accuracy, reliability, or suitability of the app for any particular purpose.
+
+### 7. Data Privacy and UK GDPR Compliance
+
+The SeshBuddy app may collect and store certain user data for functionality and improvement purposes. The creator is committed to protecting user privacy and handling data in accordance with the UK General Data Protection Regulation (UK GDPR). For any questions or concerns regarding data privacy, please contact Jake Gibbons via Email at Jake_Gibbons@icloud.com or via phone call at 07946316946.
+
+### 8. App Modification and Discontinuation
+
+The creator reserves the right to modify, update, or discontinue the SeshBuddy app at any time without prior notice.
+
+### 9. Agreement to Terms
+
+By using the SeshBuddy app, you acknowledge and agree to these terms of use. If you do not agree with these terms, you should refrain from using the app.
+
+Please act responsibly and remember to always prioritize your safety and well-being. Now go and have a good sesh!
+
