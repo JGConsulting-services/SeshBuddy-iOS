@@ -16,6 +16,9 @@
 		FCB026832A2AE68500424C5F /* SeshBuddyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB026822A2AE68500424C5F /* SeshBuddyUITestsLaunchTests.swift */; };
 		FCB026902A2AF4BC00424C5F /* AddGuestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB0268F2A2AF4BC00424C5F /* AddGuestView.swift */; };
 		FCB026922A2B12AC00424C5F /* Terms.txt in Resources */ = {isa = PBXBuildFile; fileRef = FCB026912A2B12AC00424C5F /* Terms.txt */; };
+		FCCD0BBA2A2DEEAC00F8F254 /* HelpSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCD0BB92A2DEEAC00F8F254 /* HelpSheetView.swift */; };
+		FCCD0BBC2A2DEECF00F8F254 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCD0BBB2A2DEECF00F8F254 /* TimerView.swift */; };
+		FCCD0BBE2A2DEF0700F8F254 /* EditGuestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCD0BBD2A2DEF0700F8F254 /* EditGuestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		FCB026822A2AE68500424C5F /* SeshBuddyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeshBuddyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FCB0268F2A2AF4BC00424C5F /* AddGuestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGuestView.swift; sourceTree = "<group>"; };
 		FCB026912A2B12AC00424C5F /* Terms.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Terms.txt; path = Assets.xcassets/TermsOfUse.dataset/Terms.txt; sourceTree = "<group>"; };
+		FCCD0BB92A2DEEAC00F8F254 /* HelpSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpSheetView.swift; sourceTree = "<group>"; };
+		FCCD0BBB2A2DEECF00F8F254 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		FCCD0BBD2A2DEF0700F8F254 /* EditGuestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditGuestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,9 @@
 		FCB026592A2AE68300424C5F = {
 			isa = PBXGroup;
 			children = (
+				FCCD0BBD2A2DEF0700F8F254 /* EditGuestView.swift */,
+				FCCD0BBB2A2DEECF00F8F254 /* TimerView.swift */,
+				FCCD0BB92A2DEEAC00F8F254 /* HelpSheetView.swift */,
 				FCB026642A2AE68300424C5F /* SeshBuddy */,
 				FCB026752A2AE68500424C5F /* SeshBuddyTests */,
 				FCB0267F2A2AE68500424C5F /* SeshBuddyUITests */,
@@ -264,9 +273,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCCD0BBC2A2DEECF00F8F254 /* TimerView.swift in Sources */,
+				FCCD0BBE2A2DEF0700F8F254 /* EditGuestView.swift in Sources */,
 				FCB026682A2AE68300424C5F /* ContentView.swift in Sources */,
 				FCB026662A2AE68300424C5F /* SeshBuddyApp.swift in Sources */,
 				FCB026902A2AF4BC00424C5F /* AddGuestView.swift in Sources */,
+				FCCD0BBA2A2DEEAC00F8F254 /* HelpSheetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
